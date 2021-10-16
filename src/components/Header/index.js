@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const Header = styled.div`
-  background-color: red;
+  background-color: var(--grey);
+  
   height: 10vh;
   width: 100%;
   display: flex;
@@ -10,14 +11,25 @@ const Header = styled.div`
   justify-content: space-around;
 
   & .header-left{
-
-  }
-
-  & .header-right{
+    color: var(--very-dark-blue);
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+  }
+
+  & .header-right{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  & a{
+    text-decoration: none;
+    color: var(--grayish-violet);
   }
 `
 

@@ -14,7 +14,7 @@ const Footer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    
   }
   
   & .footer-item a{
@@ -25,8 +25,10 @@ const Footer = styled.div`
   & .footer-icon{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  }
+
+  & .footer-icon a{
+    margin: -100px 5px;
   }
 
 `

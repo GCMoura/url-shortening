@@ -11,12 +11,12 @@ import Link from '../src/components/Link'
 import Main from '../src/components/Main'
 import Input from '../src/components/Input'
 
-import Illustration from '../1A/images/illustration-working.svg'
-// import Illustration from '../src/assets/illustration-working.svg'
-// import Facebook from '../src/assets/icon-facebook.svg'
-// import Instagran from '../src/assets/icon-instagran.svg'
-// import Twitter from '../src/assets/icon-twitter.svg'
-// import Pinterest from '../src/assets/icon-pnterest.svg'
+
+import Illustration from '../public/illustration-working.svg'
+import Facebook from '../public/icon-facebook.svg'
+import Instagram from '../public/icon-instagram.svg'
+import Twitter from '../public/icon-twitter.svg'
+import Pinterest from '../public/icon-pinterest.svg'
 
 export default function Home() {
   return (
@@ -81,10 +81,11 @@ export default function Home() {
           <Link href="#">Contact</Link>
         </div>
         <div className="footer-icon">
-          <Image src={Facebook} alt="Facebook" width="50" height="40" />
-          <Image src={Instagran} alt="Instagran" width="50" height="40" />
-          <Image src={Twitter} alt="Twitter" width="50" height="40" />
-          <Image src={Pinterest} alt="Pinterest" width="50" height="40" />
+          <Link href="#"><Image src={Facebook} alt="Facebook" width="40" height="40" /></Link>
+          <Link href="#"><Image src={Instagram} alt="Instagran" width="40" height="40" /></Link>
+          <Link href="#"><Image src={Twitter} alt="Twitter" width="40" height="40" /></Link>
+          <Link href="#"><Image src={Pinterest} alt="Pinterest" width="40" height="40" /></Link>
+          
         </div>
       </Footer>
     </>

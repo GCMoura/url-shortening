@@ -3,7 +3,8 @@ import styled from "styled-components";
 const InputArea = styled.div`
   width: 70%;
   height: 10vh;
-  background-color: grey;
+  border-radius: 8px;
+  background-color: var(--dark-violet);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,17 +12,6 @@ const InputArea = styled.div`
   position: absolute;
   top: 55vh;
   left: 15%;
-
-  & button{
-    background-color: aquamarine;
-    width: 100px;
-    height: 30px;
-  }
-
-  & input{
-    width: 50%;
-    height: 30px;
-  }
   
 `
 

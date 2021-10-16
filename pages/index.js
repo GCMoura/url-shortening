@@ -9,8 +9,14 @@ import Header from '../src/components/Header'
 import InputArea from '../src/components/InputArea'
 import Link from '../src/components/Link'
 import Main from '../src/components/Main'
+import Input from '../src/components/Input'
 
 import Illustration from '../1A/images/illustration-working.svg'
+// import Illustration from '../src/assets/illustration-working.svg'
+// import Facebook from '../src/assets/icon-facebook.svg'
+// import Instagran from '../src/assets/icon-instagran.svg'
+// import Twitter from '../src/assets/icon-twitter.svg'
+// import Pinterest from '../src/assets/icon-pnterest.svg'
 
 export default function Home() {
   return (
@@ -37,27 +43,49 @@ export default function Home() {
         </div>
       </Main>
       <InputArea>
-        <input />
-        <button> Click </button>
+        <Input placeholder="Shorten a link here..."/>
+        <Button> Shorten it! </Button>
       </InputArea>
       <Article>
-        <h2> Articles</h2>
-        <div>
-          <h2>card</h2>
-          <h2>card</h2>
-          <h2>card</h2>
+        <div className="article-text"> 
+          <h1> Advanced Statistics</h1>
+          <p> Track how your links are performing across the web width our advanced statistics dashboard</p>
+        </div>
+        <div className="article-card">
+          
         </div>
       </Article>
       <BoostArea>
-        <h3>text</h3>
-        <button> Click </button>
+        <h1>Boost your links today</h1>
+        <Button> Get Started </Button>
       </BoostArea>
       <Footer>
-        <h4>footer</h4>
-        <h4>footer</h4>
-        <h4>footer</h4>
-        <h4>footer</h4>
-        <h4>footer</h4>
+        <h1>Shortly</h1>
+        <div className="footer-item"> 
+          <h3>Features</h3>
+          <Link href="#">Link Shortening</Link>
+          <Link href="#">Branded Links</Link>
+          <Link href="#">Analytics</Link>
+        </div>
+        <div className="footer-item"> 
+          <h3>Resources</h3>
+          <Link href="#">Blog</Link>
+          <Link href="#">Developers</Link>
+          <Link href="#">Support</Link>
+        </div>
+        <div className="footer-item"> 
+          <h3>Company</h3>
+          <Link href="#">About</Link>
+          <Link href="#">Our team</Link>
+          <Link href="#">Carrers</Link>
+          <Link href="#">Contact</Link>
+        </div>
+        <div className="footer-icon">
+          <Image src={Facebook} alt="Facebook" width="50" height="40" />
+          <Image src={Instagran} alt="Instagran" width="50" height="40" />
+          <Image src={Twitter} alt="Twitter" width="50" height="40" />
+          <Image src={Pinterest} alt="Pinterest" width="50" height="40" />
+        </div>
       </Footer>
     </>
   )

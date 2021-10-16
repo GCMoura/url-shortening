@@ -23,7 +23,7 @@ const Main = styled.div`
 
   & .main-text p{
     font-size: 18px;
-    color: var(--grayish-violet);
+    color: var(--grey);
   }
 
   & .main-image{

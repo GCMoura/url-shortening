@@ -27,10 +27,6 @@ const Header = styled.div`
     justify-content: space-evenly;
   }
 
-  & a{
-    text-decoration: none;
-    color: var(--grayish-violet);
-  }
 `
 
 export default Header

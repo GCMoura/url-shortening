@@ -11,12 +11,14 @@ import Link from '../src/components/Link'
 import Main from '../src/components/Main'
 import Input from '../src/components/Input'
 
-
 import Illustration from '../public/illustration-working.svg'
 import Facebook from '../public/icon-facebook.svg'
 import Instagram from '../public/icon-instagram.svg'
 import Twitter from '../public/icon-twitter.svg'
 import Pinterest from '../public/icon-pinterest.svg'
+import Brand from '../public/icon-brand-recognition.svg'
+import Detailed from '../public/icon-detailed-records.svg'
+import Fully from '../public/icon-fully-customizable.svg'
 
 export default function Home() {
   return (
@@ -52,7 +54,27 @@ export default function Home() {
           <p> Track how your links are performing across the web width our advanced statistics dashboard</p>
         </div>
         <div className="article-card">
-          
+          <div className="card card-1">
+            <div className="card-img"> 
+              <Image src={Brand} alt="brand" width="50" height="50"/>
+            </div>
+            <h4>Brand Recognition</h4>
+            <p>Lorem ipsum</p>
+          </div>
+          <div className="card card-2">
+            <div className="card-img"> 
+              <Image src={Detailed} alt="detailed" width="50" height="50"/>
+            </div>      
+            <h4>Detailed Records</h4>  
+            <p>Lorem ipsum</p>    
+          </div>
+          <div className="card card-3">
+            <div className="card-img"> 
+              <Image src={Fully} alt="fully" width="50" height="50"/>
+            </div>
+            <h4>Fully Customizable</h4>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
       </Article>
       <BoostArea>

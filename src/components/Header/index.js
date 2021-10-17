@@ -8,7 +8,7 @@ const Header = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   & .header-left{
     color: var(--very-dark-blue);
@@ -16,7 +16,7 @@ const Header = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   & .header-right{

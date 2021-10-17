@@ -9,6 +9,13 @@ const Button = styled.button`
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   color: var(--white);
+  
+  :hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: var(--red);
+    border: 1px solid var(--red);
+  }
 `
 
 export default Button

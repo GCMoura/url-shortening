@@ -49,5 +49,27 @@ const Article = styled.div`
     margin-top: 50px;
   }
 
+  & .section{
+    width: 70%;
+    height: 6vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 10px;
+    background-color: var(--white);
+    border-radius: 8px;
+  } 
+
+  & #copy-button:hover{
+    transform: scale(0.9);
+  }
+
+  & #copy-button:active{
+    transform: scale(1.2);
+  }
+
 `
 export default Article

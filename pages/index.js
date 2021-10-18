@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 
 import Article from '../src/components/Article'
@@ -21,6 +21,30 @@ import Detailed from '../public/icon-detailed-records.svg'
 import Fully from '../public/icon-fully-customizable.svg'
 
 export default function Home() {
+
+  const [url, setUrl] = useState('')
+  const [shortURL, setShortURL] = useState('')
+
+  function handleSubmit(event){
+    event.preventDefault()
+    setShortURL('')
+    
+    fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
+      .then(response => {
+        return response.json()
+      })
+      .then(data => {
+        console.log(data.result.full_short_link2)
+        setShortURL(data.result.full_short_link2)
+      })
+     
+    document.querySelector('#url-input').value = ''
+  }
+
+  function copyShortURL(urlShorten){
+    navigator.clipboard.writeText(urlShorten);
+  }
+
   return (
     <>
       <Header>
@@ -45,10 +69,20 @@ export default function Home() {
         </div>
       </Main>
       <InputArea>
-        <Input placeholder="Shorten a link here..."/>
-        <Button> Shorten it! </Button>
+        <form onSubmit={handleSubmit}>
+          <Input id="url-input" placeholder="Shorten a link here..." onChange={ ()=> {setUrl(event.target.value)} } required/>
+          <Button> Shorten it! </Button>
+        </form>
       </InputArea>
       <Article>
+        {
+          shortURL && 
+            <div className="section"> 
+              <p> {url} </p>
+              <p> {shortURL} </p> 
+              <Button id="copy-button" onClick={copyShortURL(shortURL)}>Copy</Button>
+            </div>
+        }
         <div className="article-text"> 
           <h1> Advanced Statistics</h1>
           <p> Track how your links are performing across the web width our advanced statistics dashboard</p>

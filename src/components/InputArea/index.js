@@ -12,6 +12,14 @@ const InputArea = styled.div`
   position: absolute;
   top: 55vh;
   left: 15%;
+
+  & form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
   
 `
 

@@ -34,6 +34,31 @@ const Main = styled.div`
     justify-content: center;
   }
 
+  @media(max-width: 768px){
+    width: 100%;
+    flex-direction: column;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .main-text{
+    width: 100%;
+  }
+
+    & .main-text h1{
+      font-size: 20px;
+    }
+
+    & .main-text p{
+      font-size: 14px;
+    }
+
+    & .main-image{
+      width: 60%;
+    }
+
+  }
 
 
 `

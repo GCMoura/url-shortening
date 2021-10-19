@@ -27,6 +27,23 @@ const Header = styled.div`
     justify-content: space-evenly;
   }
 
+  @media(max-width: 768px){
+    height: 6vh;
+
+    & .header-left{
+      width: 80%;
+    }
+
+    & .header-right{
+      display: none;
+    }
+
+    & a{
+      display: none;
+    }
+
+  }
+
 `
 
 export default Header

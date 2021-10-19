@@ -31,6 +31,20 @@ const Footer = styled.div`
     margin: -100px 5px;
   }
 
+  @media(max-width: 768px){
+    height: 120vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    & .footer-icon a{
+      margin: 0px 5px;
+    }
+
+  }
+
 `
 
 export default Footer

@@ -14,5 +14,10 @@ const BoostArea = styled.div`
     color: var(--white);
   }
 
+  @media(max-width: 768px){
+    font-size: 14px;
+    text-align: center;
+  }
+
 `
 export default BoostArea

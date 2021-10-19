@@ -16,6 +16,10 @@ const Button = styled.button`
     background-color: var(--red);
     border: 1px solid var(--red);
   }
+
+  @media(max-width: 768px){
+    padding: 8px 15px;
+  }
 `
 
 export default Button

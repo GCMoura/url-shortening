@@ -20,6 +20,11 @@ const InputArea = styled.div`
     align-items: center;
     justify-content: space-around;
   }
+
+  @media(max-width: 768px){
+    width: 100%;
+    left: 0;
+  }
   
 `
 

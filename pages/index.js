@@ -77,7 +77,7 @@ export default function Home() {
         {
           shortURL && 
             <div className="section"> 
-              <p> {url} </p>
+              <p id="url-initial"> {url} </p>
               <p> {shortURL} </p> 
               <Button id="copy-button" onClick={copyShortURL(shortURL)}>Copy</Button>
             </div>

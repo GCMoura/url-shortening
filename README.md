@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# URL Shortening
 
-## Getting Started
+This is a URL shortening page. Based in a challenge of [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [URL Shortening](#url-shortening)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screnshot](#screnshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learn](#what-i-learn)
+  - [Author](#author)
+    - [Get in touch](#get-in-touch)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Users should be able to:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- View the optimal layout for desktop screen size
+- See hover states for all interactive elements on the page
+- Shorten url using a external API
 
-## Learn More
+### Screnshot
 
-To learn more about Next.js, take a look at the following resources:
+![]('./../screenshot/Screenshot-1.png)
+![]('./../screenshot/Screenshot-2.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-  Enjoy my project: [URL Shortening](https://url-shortening-ashen.vercel.app/)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- HTML5
+- CSS3
+- Styled Components
+- Javascript
+- Next JS
+
+### What I learn
+
+  I put into practice my knowledge of HTML5 and CSS3 to develop this application. In addition, I put my previous knowledge of Javascript into practice. Improved skills in Next JS and Styled Components. 
+  
+## Author
+
+### Get in touch
+- Portfolio - [Gabriel Moura](https://gcmoura-portfolio.netlify.app/)
+- Linkedin - [Gabriel Moura](https://www.linkedin.com/in/gabriel-moura-developer/)
+- Github - [@GCMoura](https://github.com/GCMoura)

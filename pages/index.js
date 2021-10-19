@@ -34,7 +34,6 @@ export default function Home() {
         return response.json()
       })
       .then(data => {
-        console.log(data.result.full_short_link2)
         setShortURL(data.result.full_short_link2)
       })
      

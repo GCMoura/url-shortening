@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--  Enjoy my project: [URL Shortening](https://url-shortening-ashen.vercel.app/)
+- Enjoy my project: [URL Shortening](https://url-shortening-ashen.vercel.app/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 ### What I learn
 
   I put into practice my knowledge of HTML5 and CSS3 to develop this application. In addition, I put my previous knowledge of Javascript into practice. Improved skills in Next JS and Styled Components. 
-  
+
 ## Author
 
 ### Get in touch
